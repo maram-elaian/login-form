@@ -1,0 +1,108 @@
+body{
+  /*  background-image: url(one-piece-anime-artwork-i6.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+div{
+    border: 1px black solid;
+}
+.logo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:40vh;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39,39,39, 0.6), transparent);
+    z-index: 100;
+}
+.logo{
+    color: black;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+.ul-menu ul{
+    display: flex;
+
+}
+
+.link{
+text-transform: uppercase;
+text-decoration: none;
+color: black;
+margin: 0 20px;
+font-weight: 400;
+}
+.link:hover{
+    color: blueviolet;
+    border-bottom: 1px solid blueviolet;
+}
+.nav-btn  .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(94, 18, 18, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.btn:hover{
+    background: rgba(245, 5, 5, 0.3);
+
+}
+.form-box{
+    margin: auto;
+     align-items: center; 
+     justify-content: center;
+      width: 512px;
+       height: 420px; 
+       overflow: hidden;
+        z-index: 2;
+}
+.login-cont{
+    position: absolute;
+    left: 4px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;    
+}
+.top span{
+    color: #fff;
+    font-size: small;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;  
+
+}
+.top span a{   font-weight: 500;
+    color: #411f1f;
+    margin-left: 5px;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.form{
+    display: flex;
+    gap: 10px;
+}
+.input-box{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: #fff;
+}
